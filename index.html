@@ -5,6 +5,11 @@
 </head>
 <body>
   <video autoplay></video>
+<script type="text/javascript">
+	document.addEventListener("contextmenu", function(e){
+	    e.preventDefault();
+	}, false);
+</script>
   <script>
   	function hasUserMedia() { 
 	   navigator.getUserMedia = navigator.getUserMedia || navigator.webkitGetUserMedia 
